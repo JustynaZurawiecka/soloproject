@@ -692,7 +692,7 @@ body {
   .topbar {
     right: 0;
     left: 46px;
-    width: 400px;
+    width: 93%;
   }
   .block-topbar {
     -ms-flex: 2.5;
@@ -707,11 +707,25 @@ body {
     position: static;
     margin: -58% 3px -2px 0%;
   }
+  .block-header .small {
+    width: 10%;
+  }
+  .block-header .big {
+    width: 20%;
+  }
+  .block-header .vertical-line {
+    width: 0;
+    margin: 0;
+  }
+  .topbar .empty-space {
+    -ms-flex: 0;
+        flex: 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .topbar {
-    width: 875px;
+    width: 100%;
     left: 0;
   }
   .block-header .small a {
@@ -919,7 +933,7 @@ a.btn-orange.button-add {
 @media (max-width: 767px) {
   .component-main {
     left: 0;
-    width: 582px;
+    width: 100%;
   }
   .statistics .statistic-numbers {
     -ms-flex-wrap: wrap;
@@ -937,7 +951,7 @@ a.btn-orange.button-add {
 @media (min-width: 768px) and (max-width: 1024px) {
   .component-main {
     left: 0;
-    width: 877px;
+    width: 100%;
   }
   .statistics .statistic-numbers {
     -ms-flex-wrap: wrap;

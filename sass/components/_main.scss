@@ -181,7 +181,7 @@ a.btn-orange.button-add {
 @media (max-width: 767px) {
   .component-main {
     left:0;
-    width: 582px;
+    width: 100%;
   }
 
   .statistics .statistic-numbers {
@@ -198,7 +198,7 @@ a.btn-orange.button-add {
 @media (min-width: 768px) and (max-width: 1024px) {
   .component-main {
     left:0;
-    width: 877px;
+    width: 100%;
   }
   .statistics .statistic-numbers {
     flex-wrap: wrap;
